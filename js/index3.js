@@ -79,6 +79,12 @@ $(document).ready(function(){
         top: '-30px',
         opacity:"1"
     }, 1600, 'easeOutQuad');
+
+
+    $(".intro").delay(3800).animate({
+        top: '23%',
+        opacity:"1"
+    }, 1600, 'easeOutQuad');
   });
   
 
