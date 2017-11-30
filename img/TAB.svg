@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="952px" height="552px" viewBox="0 0 952 552" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-A-3(1)" transform="translate(-36.000000, -76.000000)" stroke-width="8" stroke="#E9E8E8">
+            <g id="Group" transform="translate(36.000000, 76.000000)">
+                <polyline id="B" points="818 0 818 136.457513 818 136.504721 948 136.504721 948 136.551928 948 273"></polyline>
+                <g id="A" transform="translate(410.000000, 283.000000)">
+                    <path d="M0.0430666667,134.603983 L0.0430666667,268.195121" id="Stroke-8"></path>
+                    <polyline id="Stroke-10" points="132.655733 268.198886 132.655733 0.913058621 0.0477333333 0.913058621"></polyline>
+                </g>
+                <g id="T" transform="translate(0.000000, 104.000000)">
+                    <path d="M4.33426667,134.603983 L4.33426667,268.195121" id="Stroke-3"></path>
+                    <path d="M132.454,0.916824138 L0.00466666667,0.916824138" id="Stroke-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="22px" viewBox="0 0 53 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo-TAB</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-15.000000, -46.000000)" stroke="#231916">
+            <g id="Logo-TAB" transform="translate(15.000000, 46.000000)">
+                <g transform="translate(0.000000, 1.000000)">
+                    <polyline id="Stroke-5" stroke-width="1.44" points="41.6198611 -7.24137931e-05 41.6198611 10.4658931 41.6198611 10.4695138 51.8696389 10.4695138 51.8696389 10.4731345 51.8696389 20.9383759"></polyline>
+                    <path d="M20.3803167,10.6618448 L20.3803167,20.9380862" id="Stroke-8" stroke-width="1.44"></path>
+                    <polyline id="Stroke-10" stroke-width="1.44" points="30.6420111 20.9383759 30.6420111 0.377927586 20.3806778 0.377927586"></polyline>
+                    <path d="M0.722294444,10.6618448 L0.722294444,20.9380862" id="Stroke-3" stroke-width="1.44"></path>
+                    <path d="M10.2494167,0.378217241 L0.000361111111,0.378217241" id="Stroke-1" stroke-width="1.44"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

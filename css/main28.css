@@ -1,0 +1,834 @@
+body {
+    font-family: "Microsoft-Yi-Baiti", sans-serif;
+}
+
+
+.logo{
+    position: relative;
+    left: 5%;
+}
+
+
+/**********************************/ 
+/*************Web Navbar***********/ 
+/**********************************/ 
+
+#mySlider{
+    display: none;
+}
+
+
+.navbar{
+    opacity: 0;
+    margin-top:30px; 
+    background-color: #ffffff;
+    height: 60px;
+}
+
+
+.navbar-nav li{
+    font-size: 18px;
+}
+
+
+
+.nav-right{
+    position: relative;
+    top: -5px;
+    right: 4%;
+   
+}
+
+.nav-right li{
+    padding: 15px;
+}
+
+
+.nav-a{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-a:hover {
+    text-decoration: none;
+    color: #000000 !important;
+}
+
+.active a{
+    color: #000000 !important;
+
+}
+
+
+
+.underline {
+    padding-bottom: 6px;
+    border-bottom: #000000 1px solid;
+}
+
+
+
+
+
+/***************************************/ 
+/*************Mobile Slidebar***********/ 
+/***************************************/ 
+
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+
+
+.subsection{
+    position: relative;
+    text-align: right;
+    right:3%;
+}
+
+
+
+
+
+.navham{
+    cursor:pointer;
+    float:right;
+    position: relative;
+    top:4%;
+    right: 5%;
+
+    z-index: 1;
+}
+
+
+
+
+.mo-portfolio{
+    position: relative;
+    margin-top: -3px;
+    padding-bottom: -15px;
+    border-bottom: #000000 1px solid;
+    display: block;
+    margin-left: 20%;
+}
+
+
+.mo-portfolio-aboutme{
+    position: relative;
+    margin-top: -3px;
+    padding-bottom: -15px;
+    border-bottom: #000000 1px solid;
+    display: block;
+    margin-left: 10%;
+
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+
+
+    overflow-x: hidden;
+    transition: 0.4s;
+    text-align:center;
+}
+ 
+
+.closebtn {
+        position: absolute;
+        top: 34px;
+        right: 6.5%;
+}
+
+
+.overlay-content {
+    position: absolute;
+    top: 72px;
+    right: 6%;
+    text-align: right;
+
+}
+
+.overlay-content a{
+  padding: 5px;
+
+}
+
+.overlay a {  
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000 !important;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************/
+/****************Animation************************/
+/*************************************************/
+.anim svg {
+    position: relative;
+    margin-top: 50px;
+    left: 5%;
+  
+    width: 100%;
+    height: 800px;
+  }
+  
+  
+  .anim path {
+    stroke-width:9;
+  }
+  
+  
+
+
+
+
+
+
+
+
+/*************************************************/
+/****************Homepage Content*****************/
+/*************************************************/
+
+
+
+.intro{
+    position: absolute;
+    top: 32%;
+    z-index: 1;
+}
+
+
+#intro-text{
+    opacity: 0;
+}
+
+
+.text-left{
+    margin-top: 80px;
+}          
+
+.text-right{
+    margin-top: 80px;
+}    
+
+.img-project{
+    position: relative;
+    margin-top:30px;
+    margin-bottom:30px;  
+    opacity: 0;
+}
+
+
+.text-project{
+    position: relative;
+    margin-top: 200px;
+
+    opacity: 0;
+
+}
+
+.text-project h1{
+    color: #000000;
+}
+
+
+.text-project h2{
+    position: relative;
+    margin-top: 40px;
+    color: #6a6a6a;
+}
+
+
+.text-project:hover{
+    cursor:pointer;
+ }
+
+ .text-project:hover a{
+    text-decoration: none;
+
+ }
+
+
+.text-project:hover .project-underline{
+   opacity: 1;
+}
+
+
+
+.project-underline{
+    position: relative;
+    width: 40%;
+    border-bottom: #000000 1px solid;
+    display: block;
+    opacity:0;
+    margin: 40px auto;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+/**********Footer**********/
+
+.page-footer{
+    position: relative;
+    margin-top:150px;
+    margin-bottom:25px;
+    left: 4%;
+}
+
+.copy-right{
+    font-size: 18px;
+
+    text-align: right;
+}
+
+.social{
+    text-align: left;
+}
+
+.social a{
+    color: #adadad;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+
+.social a:hover{
+    color: #000000 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+/*************************************************/
+/****************About me Content*****************/
+/*************************************************/
+
+.about-me{
+    position: absolute;
+    top:20%;
+    z-index: 2;
+}
+
+
+#img-about-me{
+    position: relative;
+    margin-top: 30px;
+    opacity: 0;
+}
+
+.text-about-me h1{
+    position: relative;
+    margin-top: 22px;
+    opacity: 0;
+
+    font-size: 36px;
+    line-height: 1;
+
+    width: 65%;
+
+}
+
+.text-about-me h3{
+    position: relative;
+
+    opacity: 0;
+    font-size: 23px;
+
+    width: 65%;
+}
+
+
+
+
+/*************************************************/
+/****************Project Content*****************/
+/*************************************************/
+
+.project-title h1{
+    position: relative;
+    margin-top: 130px;
+    margin-left: 4.5%;
+}
+
+.project-title h3{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 4.5%;
+    margin-bottom:60px; 
+}
+
+.img-cover{
+    width:91%;
+
+}
+
+.project-info{
+    position: relative;
+    left: 4%;
+    margin-top: 30px;
+
+    width: 99%;
+}
+
+.project-info h3{
+    color: #6a6a6a;
+}
+
+
+.project hr{
+    width: 92%;
+
+}
+
+.overview h5{
+    width: 85%;
+}
+
+.project-info-item{
+    padding: 20px;
+}
+
+.project-content{
+    margin-top: 6%;
+}
+
+.project-content h3{
+    text-align: left;
+    position: relative;
+    margin-left: 4.5%;
+    color: #6a6a6a;
+}
+
+.project-content h4{
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 4.5%;
+
+}
+
+.project-content h5{
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 4.5%;
+    margin-bottom: 100px;
+    width: 92%;
+
+}
+
+.platform-feature{
+    margin-bottom: 100px;
+}
+
+.project-content img{
+    margin-top: 20px;
+}
+
+.platform-feature img{
+    width: 50%;
+}
+
+.platform-feature h5{
+    position: relative;
+    margin-left: 14%;
+    margin-bottom: 0px;
+    width: 80%
+}
+
+.grey{
+    color: #6a6a6a;
+}
+
+.h5-content{
+    margin-bottom: 20px !important;
+}
+
+.img-content{
+    margin-bottom: 100px;
+}
+
+.parallel {
+    /* The image used */
+    background-image: url("../img/portfolio/soe(user)/SOE Sketch(Web).jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+    width: 92%; 
+
+    position: relative;
+    margin: auto;
+    top: -200px;
+    margin-bottom: -90px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.link-content a{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity:1;
+}
+
+.link-content a:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+.info-video{
+    margin-top: 120px;
+}
+
+
+.info-video h5{
+    width: 70%;
+}
+
+
+.video hr{
+    flex: 0 0 40% !important;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+
+.nav-button a{
+    font-size: 18px;
+    color: #adadad;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-button img{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.nav-button a:hover{
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.nav-button a:hover img{
+    opacity: 1 !important;
+}
+
+
+.nav-button img{
+    position: relative;
+    top: -1px;
+    opacity: 0.35;
+}
+
+
+
+
+.previous-project{
+    left:4.5%;
+}
+
+.next-project{
+    text-align: right;
+    right:4.5%;
+}
+
+
+.back{
+    opacity: 0.5;
+}
+
+
+.back:hover{
+    opacity: 1;
+}
+
+
+/*Data Visualization*/
+.interview{
+    margin-bottom:100px;
+}
+
+
+.interview img{
+    width: 80%;
+}
+
+
+/*************************************************/
+/****************Responsive Css*******************/
+/*************************************************/
+
+
+@media (max-width: 1024px) 
+{
+    .text-about-me h1{
+        width: 90% !important;
+    }
+
+    .text-about-me h3{
+        width: 90% !important;
+    }
+
+    .page-footer{
+        left: 10% !important;
+    }
+
+    .img-cover{
+        position: relative;
+        left: 4%;
+        
+        width: 100% !important;
+    }
+
+    .project hr{
+        width: 100%;
+        position: relative;
+        margin-left: 4%;
+    
+    }
+
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width : 990px)
+{
+
+
+
+    #mySlider
+    {
+        display: block;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .logo{
+        position: relative;
+        top:4%;
+    }
+
+    .intro{
+        top: 22% !important;
+    }
+
+    .text-project{
+        display: none;
+    }
+
+    .project > .text-left{
+        text-align: center !important;
+    }
+
+    .text-left img{
+        width: 80%;
+    }
+
+    .project > .text-right{
+        text-align: center !important;
+    }
+
+    .text-right img{
+        width: 80%;
+    }
+
+
+    /******Footer******/
+    .copy-right{
+        font-size: 18px;
+        text-align: center !important;
+    }
+
+    .social{
+        margin-top:5px; 
+        text-align: center !important;
+    }
+    
+
+
+    /*****************************/
+    /***********About me**********/
+    /*****************************/
+    .about-me{
+        left: 6%;
+    }
+
+    .about-me .text-right{
+        text-align: center !important;
+    }
+
+
+    #img-about-me{
+        position: relative;
+        margin-top: -18% !important;
+
+        width: 55%;
+    }
+
+    .text-about-me{
+        position: relative;
+        margin-top: -1% !important; 
+    }
+    .text-about-me h1{
+        width: 55% !important;
+
+        position: relative;
+        margin:auto;
+        margin-bottom:10px; 
+    }
+
+    .text-about-me h3{
+        width: 55% !important;
+
+        position: relative;
+        margin:auto;
+    }
+
+
+    .page-footer{
+        left: 0% !important;
+    }
+    
+
+
+    /************************************/
+    /***********Project Content**********/
+    /************************************/
+    .img-cover{
+        position: relative;
+        margin-left: -4%; 
+        width: 95% !important;
+    }
+
+
+    .overview h5{
+        width: 96% !important;
+    }
+
+    .project hr{
+        width: 96%;
+    
+    }
+
+
+    .platform-feature img{
+        width: 30%;
+    }
+
+
+    .platform-feature h5{
+        position: relative;
+        margin-left: 4.5%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 90%
+    }
+
+    .grey{
+        margin-bottom: 60px !important;
+    }
+
+
+    .parallel {
+        width: 96%;
+        left: 1%; 
+
+    }
+
+    .project-content h3{
+        margin-top: 40px;
+    }
+
+    .info-video h4{
+        margin: auto;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+
+    .info-video h5{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .video hr{
+        width: 50%;
+        margin-top: 60px;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+
+    .previous-project{
+        text-align: center;
+        left: 0%;
+        padding-bottom: 20px;
+    }
+
+    .next-project{
+        text-align: center;
+        left: 0%;
+    }
+    
+
+
+}
+
+
+ /* Extra Small Devices, Phones */ 
+ @media only screen and (max-width : 480px) {
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  
+  
+    .text-project{
+        display: none;
+    }
+  
+  
+
+
+ }
