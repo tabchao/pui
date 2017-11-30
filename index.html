@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>SVG line drawing animation</title>
+  <title>TAB's Portfolio</title>
   
   <link rel="stylesheet" href="css/bootstrap2.css" >
   <link rel="stylesheet" href="css/main28.css" >
@@ -200,82 +200,6 @@
 
 <script>
     
-    
-/**************************************/
-/***********Mobile Navigation**********/
-/**************************************/
-    
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-    
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-    
-
-$(document).ready(function(){
-
-   $("#intro-text").delay(3800).animate({
-        'marginTop' : "-=50px", 
-        opacity:"1"
-    }, 1600, 'easeOutQuad');
-
-
-
-    $("#navbar-home").delay(4500).animate({
-        top: '-30px',
-        opacity:"1"
-    }, 1600, 'easeOutQuad');
-});
-
-
-
-
-
-/**************************************************/
-/***********Scroll Show Project Animation**********/
-/**************************************************/
-
-
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.row').each( function(i){
-            
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object - 150 ){
-                
-                $(this).find( '.img-project' ).animate({
-                    top: '-30px',
-                    opacity:"1"
-                }, 1600, 'easeOutQuad');
-
-                $(this).find( '.text-project' ).delay(600).animate({
-                    top: '-30px',
-                    opacity:"1"
-                }, 1600, 'easeOutQuad');
-
-            }
-            
-        }); 
-
-
-
-
-    
-    });
-    
-});
-
-
-
 
 
 </script>
