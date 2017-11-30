@@ -703,6 +703,7 @@ body {
     #img-about-me{
         position: relative;
         margin-top: -18% !important;
+        margin-bottom: 40px;
 
         width: 55%;
     }

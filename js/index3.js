@@ -54,6 +54,33 @@ function openNav() {
   
 
 
+    
+$(document).ready(function(){
+  
+   $("#img-about-me").delay(3800).animate({
+        top: '-30px',
+        opacity:"1"
+    }, 1600, 'easeOutQuad');
+  
+  
+    $(".h1-about-me").delay(4500).animate({
+        top: '-30px',
+        opacity:"1"
+    }, 1600, 'easeOutQuad');
+  
+  
+    $(".h3-about-me").delay(4800).animate({
+        top: '-30px',
+        opacity:"1"
+    }, 1600, 'easeOutQuad');
+    
+  
+    $(".navbar").delay(4500).animate({
+        top: '-30px',
+        opacity:"1"
+    }, 1600, 'easeOutQuad');
+  });
+  
 
 /**************************************************/
 /***********Scroll Show Project Animation**********/
@@ -85,6 +112,53 @@ $(document).ready(function() {
               }, 1600, 'easeOutQuad');
           }  
       }); 
+  });
+  
+});
+
+
+
+
+
+
+
+/**************************************************/
+/***********Scroll Show Project Animation**********/
+/**************************************************/
+
+
+$(document).ready(function() {
+  
+  /* Every time the window is scrolled ... */
+  $(window).scroll( function(){
+  
+      /* Check the location of each desired element */
+      $('.row').each( function(i){
+          
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+          /* If the object is completely visible in the window, fade it it */
+          if( bottom_of_window > bottom_of_object - 150 ){
+              
+              $(this).find( '.img-project' ).animate({
+                  top: '-30px',
+                  opacity:"1"
+              }, 1600, 'easeOutQuad');
+
+              $(this).find( '.text-project' ).delay(600).animate({
+                  top: '-30px',
+                  opacity:"1"
+              }, 1600, 'easeOutQuad');
+
+          }
+          
+      }); 
+
+
+
+
+  
   });
   
 });
